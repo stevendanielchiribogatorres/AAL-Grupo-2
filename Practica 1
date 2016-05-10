@@ -1,0 +1,30 @@
+#include <iostream>
+using std::cin;
+using std::cout;
+using std::endl;
+
+int main() {
+  
+  int numDigitos, numPrimero =1, numSegudo =1, numTercero;
+  cout << "Serie fibonacci" << endl;
+  cout << "introducir el numero de digitos a desplegar" <<endl;
+  cin >> numDigitos;
+  cout << "La serie es:" <<endl;
+  switch (numDigitos) {
+    case 0: cout <<"ingrese un digito mayor a 0" <<endl;
+      break;
+    case 1: cout <<numPrimero <<endl;
+      break;
+    case 2: cout <<numPrimero <<"," <<numSegudo <<endl;
+      break;
+    default:
+      cout <<numPrimero <<"," <<numSegudo;
+        for (int i = numDigitos-2 ; i > 0; i--) {
+          numTercero = numPrimero + numSegudo;
+          numPrimero = numSegudo;
+          numSegudo = numTercero;
+          cout << ","<< numTercero;
+        }
+  }
+  return 0;
+}
