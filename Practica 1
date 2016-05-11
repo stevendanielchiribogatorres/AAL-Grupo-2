@@ -8,9 +8,9 @@ int main() {
   int numDigitos, numPrimero =1, numSegudo =1, numTercero;
   cout << "Serie fibonacci" << endl;
   cout << "introducir el numero de digitos a desplegar" <<endl;
-  cin >> numDigitos;
+  cin >> numeroDigitos;
   cout << "La serie es:" <<endl;
-  switch (numDigitos) {
+  switch (numeroDigitos) {
     case 0: cout <<"ingrese un digito mayor a 0" <<endl;
       break;
     case 1: cout <<numPrimero <<endl;
