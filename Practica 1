@@ -4,13 +4,14 @@ using std::cout;
 using std::endl;
 
 int main() {
+ int alejandro;
   
   int numDigitos, numPrimero =1, numSegudo =1, numTercero;
   cout << "Serie fibonacci" << endl;
   cout << "introducir el numero de digitos a desplegar" <<endl;
-  cin >> numeroDigitos;
+  cin >> numDigitos;
   cout << "La serie es:" <<endl;
-  switch (numeroDigitos) {
+  switch (numDigitos) {
     case 0: cout <<"ingrese un digito mayor a 0" <<endl;
       break;
     case 1: cout <<numPrimero <<endl;
