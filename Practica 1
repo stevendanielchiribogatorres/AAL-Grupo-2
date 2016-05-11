@@ -19,7 +19,7 @@ int main() {
       break;
     default:
       cout <<numPrimero <<"," <<numSegudo;
-        for (int i = numDigitos-2 ; i > 0; i--) {
+        for (int j = numDigitos-2 ; j > 0; j--) {
           numTercero = numPrimero + numSegudo;
           numPrimero = numSegudo;
           numSegudo = numTercero;
