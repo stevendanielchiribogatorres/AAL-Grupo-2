@@ -5,7 +5,7 @@ using std::endl;
 
 int main() {
  int alejandro;
-  
+  cout << " grupo 2 ";
   int numDigitos, numPrimero =1, numSegudo =1, numTercero;
   cout << "Serie fibonacci" << endl;
   cout << "introducir el numero de digitos a desplegar" <<endl;
